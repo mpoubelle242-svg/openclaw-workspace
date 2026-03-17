@@ -33,7 +33,7 @@
     "title": "QS-6.6 : Audit trail complet",
     "status": "in_progress",
     "assigned": "developpeur",
-    "aegis_note": "Réouvert après rejet - résolution texte = revue QS-040/Stripe au lieu de QS-043 (Audit trail) → reprise en in_progress. Aegis REJECTED confirmé."
+    "aegis_note": "Réouvert après rejet - résolution texte = revue QS-040/Stripe au lieu de QS-043 (Audit trail) → reprise en in_progress"
   },
   "66": {
     "title": "QS-6.7 : Système notifications (email, in-app)",
@@ -41,5 +41,5 @@
     "assigned": "developpeur",
     "aegis_note": "Réouvert après rejet - résolution texte = QS-042 (Rate limiting) au lieu de QS-044 (Notifications) → reprise en in_progress"
   },
-  "last_checked": "2026-03-17T15:23:00Z"
+  "last_checked": "2026-03-17T18:15:00Z"
 }

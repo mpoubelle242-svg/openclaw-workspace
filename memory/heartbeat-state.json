@@ -1,12 +1,15 @@
 {
-  "lastHeartbeat": "2026-03-17T09:52:00.000000+00:00",
+  "lastHeartbeat": "2026-03-17T17:28:00.000000+00:00",
   "checks": {
     "email": "agent configured but not fully set up (no credentials)",
     "calendar": "agent configured but not fully set up (no credentials)",
-    "whatsapp": "channels list shows linked/enabled, but listener still blocked (envoi échoué), test message still fails",
-    "mission-control": "read-only volume issue resolved, model parameter fix deployed, container rebuilt",
-    "gateway": "running, config writable, filesystem stable"
+    "whatsapp": "linked but listener blocked",
+    "mission-control": "running on port 3000, healthy",
+    "gateway": "running, config writable",
+    "frontend": "running on port 3001",
+    "backend": "running on port 4001"
   },
   "alerts": [],
-  "status": "degraded"
+  "status": "degraded",
+  "recentActivity": "Sprint QS-12 (UX visual fixes) completed: landing icons+hover, dashboard stats+empty states, global consistency. All commits pushed to feature/saas-platform."
 }
