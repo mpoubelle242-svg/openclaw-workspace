@@ -1,0 +1,45 @@
+{
+  "60": {
+    "title": "QS-6.1 : Portail admin dashboard",
+    "status": "in_progress",
+    "assigned": "chef-de-projet",
+    "aegis_note": "Rejeté - livré QS-6.3 (Stripe) au lieu de QS-6.1 (admin dashboard) — revenu en in_progress"
+  },
+  "61": {
+    "title": "QS-6.2 : Plans abonnement (Free, Pro, Enterprise)",
+    "status": "done",
+    "assigned": "developpeur",
+    "aegis_note": "Approuvé par Aegis - commit 9479cbe - 3 plans avec quotas + tests"
+  },
+  "62": {
+    "title": "QS-6.3 : Intégration Stripe",
+    "status": "in_progress",
+    "assigned": "developpeur",
+    "aegis_note": "Réouvert après rejet - résolution texte référençait approbation sans deliverables détaillés → reprise en in_progress"
+  },
+  "63": {
+    "title": "QS-6.4 : Monitoring exécutions quantiques",
+    "status": "in_progress",
+    "assigned": "testeur",
+    "aegis_note": "Réouvert après rejet - réponse fabriquée recyclée, fichiers inexistants (admin.ts, AdminChart.tsx) → reprise en in_progress"
+  },
+  "64": {
+    "title": "QS-6.5 : Rate limiting & quotas par plan",
+    "status": "in_progress",
+    "assigned": "developpeur",
+    "aegis_note": "Réouvert après rejet - résolution texte = approbation QS-039 (Plans) au lieu de QS-042 (Rate limiting) → reprise en in_progress"
+  },
+  "65": {
+    "title": "QS-6.6 : Audit trail complet",
+    "status": "in_progress",
+    "assigned": "developpeur",
+    "aegis_note": "Réouvert après rejet - résolution texte = revue QS-040/Stripe au lieu de QS-043 (Audit trail) → reprise en in_progress. Aegis REJECTED confirmé."
+  },
+  "66": {
+    "title": "QS-6.7 : Système notifications (email, in-app)",
+    "status": "in_progress",
+    "assigned": "developpeur",
+    "aegis_note": "Réouvert après rejet - résolution texte = QS-042 (Rate limiting) au lieu de QS-044 (Notifications) → reprise en in_progress"
+  },
+  "last_checked": "2026-03-17T15:23:00Z"
+}

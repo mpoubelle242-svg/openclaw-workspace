@@ -1,0 +1,12 @@
+{
+  "lastHeartbeat": "2026-03-17T09:52:00.000000+00:00",
+  "checks": {
+    "email": "agent configured but not fully set up (no credentials)",
+    "calendar": "agent configured but not fully set up (no credentials)",
+    "whatsapp": "channels list shows linked/enabled, but listener still blocked (envoi échoué), test message still fails",
+    "mission-control": "read-only volume issue resolved, model parameter fix deployed, container rebuilt",
+    "gateway": "running, config writable, filesystem stable"
+  },
+  "alerts": [],
+  "status": "degraded"
+}
