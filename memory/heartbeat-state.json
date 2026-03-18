@@ -1,15 +1,15 @@
 {
-  "lastHeartbeat": "2026-03-17T17:28:00.000000+00:00",
+  "lastHeartbeat": "2026-03-18T18:56:00.000000+00:00",
   "checks": {
     "email": "agent configured but not fully set up (no credentials)",
     "calendar": "agent configured but not fully set up (no credentials)",
     "whatsapp": "linked but listener blocked",
-    "mission-control": "running on port 3000, healthy",
-    "gateway": "running, config writable",
-    "frontend": "running on port 3001",
-    "backend": "running on port 4001"
+    "mission-control": "running on port 3000, healthy (307)",
+    "gateway": "running",
+    "frontend": "running on port 3001 (HTTP 200)",
+    "backend": "running on port 4001 (HTTP 401 = auth OK)"
   },
   "alerts": [],
-  "status": "degraded",
-  "recentActivity": "Sprint QS-12 (UX visual fixes) completed: landing icons+hover, dashboard stats+empty states, global consistency. All commits pushed to feature/saas-platform."
+  "status": "healthy",
+  "recentActivity": "AC-01 completed: /playground page functional. Last AC cycle was mid-task (playground E2E tests, backend playground endpoint). Next: resume AC or pick /assistant."
 }
