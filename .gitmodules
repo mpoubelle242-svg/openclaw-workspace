@@ -1,0 +1,6 @@
+[submodule "quantique-saas"]
+    path = quantique-saas
+    url = https://github.com/Yoann81/Quantique.git
+[submodule "CGIWebContent"]
+    path = CGIWebContent
+    url = https://github.com/mpoubelle242-svg/CGIWebContent.git
